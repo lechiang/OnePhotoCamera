@@ -138,22 +138,6 @@ public class MainActivity extends CameraActivity
                 targetFragment = SimpleCameraIntentFragment.newInstance(position + 1);
                 break;
             }
-            case SIMPLE_PHOTO_GALLERY_FRAGMENT: {
-                targetFragment = SimplePhotoGalleryListFragment.newInstance(position + 1);
-                break;
-            }
-            case SIMPLE_PHOTO_PICKER_FRAGMENT: {
-                targetFragment = SimpleAndroidImagePickerFragment.newInstance(position + 1);
-                break;
-            }
-            case NATIVE_CAMERA_FRAGMENT: {
-                targetFragment = NativeCameraFragment.newInstance(position + 1);
-                break;
-            }
-            case HORIZONTAL_GALLERY_FRAGMENT:{
-                targetFragment = HorizontalPhotoGalleryFragment.newInstance(position + 1);
-                break;
-            }
             default:
                 break;
         }

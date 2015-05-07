@@ -157,6 +157,8 @@ public class NativeCameraFragment extends BaseFragment {
                     @Override
                     public void onClick(View v) {
                         // get an image from the camera
+                        captureButton.setVisibility(View.GONE);
+                        captureButton.setEnabled(false);
                         mCamera.takePicture(null, null, mPicture);
                     }
                 }
