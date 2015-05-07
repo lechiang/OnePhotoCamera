@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photo"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/photo_final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/one_photo"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_left"
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentLeft="true"
+        android:background="#000000">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_right"
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000000">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_top"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#000000">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000">
+    </LinearLayout>
+
+
+
+</RelativeLayout>

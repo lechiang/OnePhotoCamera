@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Lesley\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\Users\Lesley\Documents\Cal\Spring15\Camera Tutorials\OnePhotoCamera\camera\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b8a57722cc23df2f666cb52a8e46aa68c6a3fea1.jar" />
+    </item>
+    <item
+        jar="D:\Users\Lesley\Documents\Cal\Spring15\Camera Tutorials\OnePhotoCamera\camera\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\Users\Lesley\Documents\Cal\Spring15\Camera Tutorials\OnePhotoCamera\camera\build\intermediates\pre-dexed\debug\classes-27118440cc45e4bcf9622344a367b90a7a037403.jar" />
+    </item>
+
+</items>
